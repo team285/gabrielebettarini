@@ -1,0 +1,34 @@
+# Dipendenze
+node_modules/
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Variabili d'ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / cache
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Lock file opzionale (decommenta se non vuoi committarli)
+# package-lock.json
+# yarn.lock
